@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(../imagens/T90\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(247, 244, 244);
+    font-family: 'Jost', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 98.5%;
+    margin: 0 0.5%;
+    padding: 15px 5px;
+    background-image: url(../imagens/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    height: 90px;
+    margin-bottom: 8px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    font-variant: small-caps;
+    text-shadow: 3px 3px 2px rgb(223, 8, 8);
+}
+
+
+nav {
+    width: 98%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    margin-left: 0.9%;
+    margin-right: 0.9%;
+    background-color: #0000007e;
+    z-index: 2;
+}
+
+.item-menu{
+    display: inline-block;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    line-height: 2;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.item-menu a{
+    text-decoration: none;
+    color: #f9f9fb00;
+    transition: 0.5s;
+}
+
+.item-menu a:hover{
+    font-size: 28px;
+    transition: 0.6s;
+    color: #65636300;
+    text-shadow: 3px 3px 2px #ffffff;
+}
+
+
+main{
+    width: 94%;
+    margin: 10px 1.2%;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px 25px;
+}
+
+section{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.51);
+    padding: 10px 15px;
+    margin: 15px 21% 15px 0;
+}
+
+
+.curso-info {
+    height: 300px;
+}
+
+.curso-img {
+    float: left;
+    margin-left: 3.5%;
+    margin-top: 13px;
+    border-radius: 20px;
+    height: 190px;
+}
+
+.curso-paragrafo {
+    margin-top: 55px;
+    margin-left: 37%;
+    margin-right: 4%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.titulo-section {
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+
+.video, .mapa {
+    width: 90%;
+    height: 500px;
+    margin: 10px 3%;
+}
+
+#section-maps {
+    text-align: center;
+}
+
+.mapa-info {
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+.sidebar {
+    min-height: 450px;
+    position: absolute;
+    top: 260px;
+    left: 79%;
+    border-radius: 5px;
+    margin-right: 3%;
+    padding: 15px 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.sidebar-titulo {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+.sidebar-links{
+    display: inline-block;
+    margin: 5px;
+}
+
+.sidebar-banners {
+    height: 66px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.sidebar-info {
+    text-align: center;
+    line-height: 1.5;
+    font-variant: small-caps;
+    margin: 15px 5px 0 5px;
+}
+
+.sidebar-img {
+    width: 90%;
+    margin: 2px 6%;
+}
+
+.item-conteudo {
+    border: solid 4px #ffffff;
+    border-radius: 7px;
+    width: 21%;
+    margin: 20px 5%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 7px;
+}
+
+.titulo-conteudo {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imagem-conteudo {
+    height: 150px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.desc-conteudo {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+td {
+    border: solid 2px #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    line-height: 1.5;
+}
+
+th {
+    border: solid 2px #ffffff;
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    line-height: 1.5;
+    font-size: 19px;
+}
+
+th:first-child{
+    font-size: 21px;
+}
+
+table {
+    margin: 15px 5%;
+}
+
+thead, tfoot {
+    text-align: center;
+    font-weight: bold;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+
+form {
+    margin: 40px 2%;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+    margin: 0 0 9px;
+}
+
+form legend {
+    font-size: 19px;
+    margin: 10px 0 5px;
+    display: block;
+}
+
+form fieldset label, form fieldset select {
+    font-size: 16px;
+}
+
+.entrada_dados {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 15px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.spam{
+    font-size: 14px;
+    display: block;
+    margin: 20px 0;
+}
+
+.enviar {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 8px;
+    margin: 20px 0;
+    transition: 1s;
+    border-radius: 6px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.enviar:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+.btn_inicio {
+    position: fixed;
+    bottom: 25px;
+    right: 5%;
+    border: solid 1px #ffffff00;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-size: 75px;
+    padding: 5px 20px;
+    transition: 0.6s;
+    text-decoration: none;
+}
+
+.btn_inicio:hover{
+    background-color: #ffffff;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0);
+    border-top: solid 5px #ffffff00;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.logo-rodape {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.texto-rodape {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+
+
+}
+.bandeiraurss.jpg {
+     height: 12px;
+
+
+}

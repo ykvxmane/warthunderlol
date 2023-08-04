@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <title>DS - War Thunder</title>
+        <link rel="icon" type="image/x-icon" href="imagens/logowarthunderuau.png">
+
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+       
+        <header id="topo">
+            <img class="logo" src="imagens/logowarthunderuau.png" alt="Logo oficial do jogo">
+            <h1 class="titulo">War Thunder</h1>
+        </header>
+    
+        
+        <nav>
+            <ul class="menu">
+                <li class="item-menu"><a href="index.html">Home</a></li>
+                <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+                <li class="item-menu"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        
+        
+        <main>
+            
+            <section>
+                <h2 class="titulo-section">Formulário de contato</h2>
+                <form>
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" class="entrada_dados" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="entrada_dados" placeholder="email@dominio.com">
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" class="entrada_dados" required placeholder="(xx) x xxxx-xxxx">
+                    <label for="obs">Observação</label>
+                    <textarea cols="70" rows="10" id="obs" class="entrada_dados" placeholder="Comentários e/ou observação"></textarea>
+
+                    <fieldset>
+                        <legend>Qual o motivo de seu contato?</legend>
+                        <label for="radio-op1">
+                            <input type="radio" value="conversa" id="radio-op1" name="contato">Só queria premium no War Thunder... &#128546;
+                        </label>
+                        <label for="radio-op2">
+                            <input type="radio" value="reclamar" id="radio-op2" name="contato">Quero reclmar da vida &#128545;
+                        </label>
+                        <label for="radio-op3">
+                            <input type="radio" value="nsei" id="radio-op3" name="contato" checked>Não sei o que eu tô fazendo aqui, eu deveria estar jogando War Thunder &#128561;
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Como prefere ser respondido?</legend>
+                        <select>
+                            <option>Whatsapp &#9990;</option>
+                            <option>E-mail &#9993;</option>
+                            <option>Ligação &#9743;</option>
+                            <option>Sinal de Fumaça &#9832;</option>
+                            <option>Telepatia &#128174;</option>
+                            <option>Invocação &#9959;</option>
+                        </select>
+                    </fieldset>
+
+                    <label class="spam"><input type="checkbox" checked required>Gostaria de receber nossas correntes de Whatsapp?</label>
+
+                    <input class="enviar" type="submit" value="Enviar formulário &#8684;">
+
+                </form>
+            </section>
+            
+            
+            <section>
+                <h2 class="titulo-section">Redes Sociais: @ykvxmane @matheus_felixlol</h2>
+
+            </section>
+            <aside class="sidebar">
+                <h3 class="sidebar-titulo">Parcerias</h3>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/Piazadamagralol.png"
+                        alt="Piazada Magra"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/Fimose_Dragons.jpeg"
+                        alt="Fimose Dragons"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/ykveumesmo.png" alt="YKVXMANE"></a>
+
+            <a class="btn_inicio" href="#topo" title="Voltar ao Início">&#8657</a>
+
+        </main>
+        
+        
+        <footer>
+            <img class="logo-rodape" src="imagens/logowarthunderuau.png" alt="Logo oficial do Jogo">
+            <p class="texto-rodape">Projeto Desenvolvido para servir de modelo e aprendiazagem ao longo do curso de
+                desenvolvimentos em sistemas.</p>
+            <p class="texto-rodape">Todos os diretos liberados. Uncreative Commons.</p>
+            <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
+        </footer>
+    </body>
+</html>
